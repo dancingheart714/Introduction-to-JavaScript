@@ -17,8 +17,11 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = 38;
 
-
+if(votingAge >= 18) {
+  console.log (true);
+}
 
 /*
 Task 1b - Values
@@ -30,6 +33,14 @@ Do the following:
 
    HINT: no function required
 */
+let a = 1;
+let b = 5;
+
+if (a <= b){
+  a = b;
+}
+console.log (a);
+
 
 
 
@@ -45,6 +56,11 @@ Do the following:
 
    HINT: look up the Number method
 */
+Number ('1999');
+console.log (Number);
+
+
+
 
 
 
@@ -58,9 +74,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
+function multiply(a, b){
+  return a * b;
+}
+console.log multiply(2, 5);
 
 
 
@@ -74,9 +91,11 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears (humanAge){
+  return (humanAge) * 7;
 }
+console.log(dogYears(5));
+
 
 
 
@@ -151,9 +170,15 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
-  }
+let kmConverter = function(kilometers){
+  return kilometers / .621;
+}
+console.log(kmConverter(10) + "miles");
+
+
+
+
+  
 
 
 

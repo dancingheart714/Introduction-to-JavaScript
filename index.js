@@ -302,16 +302,16 @@ Using the vowelCounter function below do the following:
 */
 
 
-function vowelCounter(str) {
-    let counter = 0
-    const vowels = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U']
-    for (let char of str){
-      if (vowels.includes(char)){
-        counter++
-      }
-    }
-    return counter
-}
+// function vowelCounter(str) {
+//     let counter = 0
+//     const vowels = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U']
+//     for (let char of str){
+//       if (vowels.includes(char)){
+//         counter++
+//       }
+//     }
+//     return counter
+// }
 
 
 
